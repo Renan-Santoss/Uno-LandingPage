@@ -1,0 +1,175 @@
+.loadText .spanLoad{
+  margin: 0 auto;
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  color: #fff;
+  font-size: 30px;
+}
+.produtoWrapper {
+  padding: 64px 16px;
+  display: flex;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 16px;
+}
+
+.containerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.containerWrapper div h2 {
+  font-size: 1.875rem;
+  color: #fff;
+  font-weight: 600;
+  max-width: 25ch;
+}
+
+.wrapperVlTime {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.wrapperValor h3 {
+  color: #fff;
+  font-size: 1.563rem;
+  font-weight: 400;
+}
+.wrapperVlTime .timeVlcontainer {
+  border-radius: 10px;
+  background: #535353;
+  color: #fff;
+  padding: 8px;
+}
+.wrraperAbout ul {
+  padding-left: 18px;
+}
+
+.wrraperAbout ul li {
+  list-style: inside;
+  max-width: 70ch;
+  color: #fff;
+}
+
+.wrraperAbout h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.FinalWrapper {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.FinalContainerC {
+  padding: 16px;
+}
+
+.FinalContainerC .StockProduct {
+  display: block;
+  font-size: 16px;
+  color: #eb5757;
+  font-weight: 600;
+  padding: 16px 0;
+}
+
+.FinalWrapper h2 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.875rem;
+}
+
+.FinalWrapper h3 {
+  padding: 16px 0;
+  color: #fff;
+  font-weight: 300;
+  max-width: 40ch;
+}
+
+.FinalWrapper span {
+  font-weight: 700;
+}
+
+.FinalWrapper .finalTime {
+  font-weight: 300;
+  color: #77b03a;
+}
+.wrapperCardsC {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.wrapperCaixaCard {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.wrapperCaixaCard h4 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.wrapperCaixaCard h4 span {
+  color: #bcbcbc;
+  font-weight: 400;
+}
+.wrapperCaixaCard .cardNumber {
+  color: #bcbcbc;
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.wrapperCardsC .wrapperCaixaCard .caixaCard {
+  border: 2px solid #d9d9d9;
+  padding: 8px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .produtoWrapper {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .containerWrapper {
+    flex-direction: column-reverse;
+  }
+
+  .FinalWrapper{
+    margin: 1rem;
+  }
+  
+  .FinalWrapper h3 {
+    max-width: 36ch;
+  }
+  .containerWrapper div h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .containerWrapper div img {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .wrapperVlTime {
+    justify-content: center;
+  }
+  .wrraperAbout h3 {
+    text-align: center;
+  }
+
+  .wrraperAbout ul li {
+    text-align: center;
+  }
+}

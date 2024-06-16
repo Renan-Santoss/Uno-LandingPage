@@ -1,0 +1,118 @@
+.footerWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: 64px;
+}
+
+.FooterP {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  max-width: 40ch;
+}
+
+.FooterSpan {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  max-width: 45ch;
+  padding-bottom: 16px;
+}
+
+.inputFooter {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #a9afbb;
+  background-color: #282828;
+  border: none;
+  border-radius: 10px;
+}
+
+.footerFlex {
+  position: relative;
+}
+
+.inputWrapper {
+  max-width: 180px;
+}
+.buttonWrapper {
+  padding-right: 0.75rem;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+}
+.buttonInput {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ed1c24;
+  border-color: transparent;
+  padding: 12px 32px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.buttonInput:hover {
+  background-color: #fff;
+  color: #ed1c24;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.copyWrapper {
+  border-top: 2px solid #fff;
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ulCopyRede {
+  display: flex;
+  gap: 8px;
+}
+.copyWrapper div p {
+  color: #828282;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .footerWrapper{
+    border-top: 2px solid #fff;
+  }
+
+  .footerContainer div .FooterLogo {
+    margin: 0 auto;
+  }
+  .footerContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .FooterP {
+    text-align: center;
+  }
+  .FooterSpan {
+    padding-top: 1rem;
+    text-align: center;
+    max-width: 40ch;
+  }
+  .copyWrapper{
+    flex-direction: column;
+    padding: 1rem 1rem;
+  }
+}

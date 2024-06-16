@@ -1,0 +1,107 @@
+.header_wrapper {
+  max-width: 1280px;
+  padding: 8px 16px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  position: relative;
+}
+
+.ul_wrapper {
+  display: flex;
+  gap: 32px;
+}
+.ul_wrapper .linksMenuLi:hover{
+  color: #ed1c24;
+}
+.nav_li a {
+  color: #fff;
+}
+
+.nav_li .btn_singIn:hover{
+  color: #ed1c24;
+}
+
+.LogoButton {
+  background-color: transparent;
+  border: transparent;
+}
+
+.btn_wrapper {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.btn_login {
+  color: #fff;
+  padding: 8px 36px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+}
+
+.btn_singIn {
+  color: #fff;
+}
+
+.btn_login:hover {
+  color: #fff;
+  background: #ed1c24;
+  border: 2px solid #ed1c24;
+}
+
+#buttonMobile {
+  display: none;
+}
+
+@media(max-width:600px){
+/* menu mobile */
+nav {
+  display: none;
+}
+#buttonMobile {
+  display: block;
+  background-color: transparent;
+  border: transparent;
+}
+#MenuIcons{
+  width: 20px;
+  height: 20px;
+}
+.btn_wrapper{
+  padding: 42px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* estilo para o menu ativo */
+.active nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 120px; /* ajuste conforme necessário */
+  left: 0;
+  width: 100%;
+  background-color: #17161E; /* cor de fundo do menu mobile */
+  z-index: 1;
+}
+
+.active .ul_wrapper {
+  padding: 16px 20px;
+  flex-direction: column;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.active .nav_li {
+  text-align: center;
+}
+}
+
+
+
+/* adicione mais estilos conforme necessário para o menu mobile */
